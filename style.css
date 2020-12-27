@@ -1,0 +1,33 @@
+.container{
+    width:95%;
+    margin:auto;
+    background-color: yellow;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 20%;
+}
+.side{
+    width: 10%;
+}
+.note{
+    background-color: aliceblue;
+    width: 10%;
+    height: 50%;
+    border: 5px solid black;
+    margin:3px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+.note:hover{
+    background-color: blueviolet;
+    transition: all 0.3s ease-in-out;
+}
